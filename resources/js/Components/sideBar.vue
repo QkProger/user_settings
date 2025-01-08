@@ -3,10 +3,8 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="/admin" class="brand-link d-flex align-items-center">
-            <img src="../../../public/adminlte/dist/img/AYU_Logo_EN.png" alt="AdminLTE Logo"
-                class="brand-image img-circle elevation-3" style="opacity: .8">
             <div>
-                <span class="brand-text font-weight-light fontSize">Главная страница</span>
+                <span class="p-3 brand-text font-weight-light fontSize">Главная страница</span>
             </div>
         </a>
 
@@ -125,8 +123,8 @@ export default {
                 {
                     name: "Профиль",
                     font: "fa-cogs",
-                    route_name: "admin.profile",
-                    menu_active: ["admin"],
+                    route_name: "admin.profile.settings",
+                    menu_active: ["admin.profile"],
                 },
             ];
         }

@@ -30,10 +30,7 @@
                                 </span>
                             @enderror
                             <div class="row mb-3">
-                                <label id="kz-email" for="email" class="col-md-4 col-form-label text-md-end">Электрондық
-                                    пошта</label>
-                                <label id="tr-email" for="email"
-                                    class="col-md-4 col-form-label text-md-end d-none">E-posta</label>
+                                <label for="email" class="col-md-4 col-form-label text-md-end">Почта</label>
                                 <div class="col-md-6">
                                     <input id="email" type="text" class="form-control" name="email" required
                                         autofocus>
@@ -41,10 +38,7 @@
                             </div>
 
                             <div class="row mb-3">
-                                <label id="kz-pas" for="password" class="col-md-4 col-form-label text-md-end">Құпия
-                                    сөз</label>
-                                <label id="tr-pas" for="password"
-                                    class="col-md-4 col-form-label text-md-end d-none">Parola</label>
+                                <label for="password" class="col-md-4 col-form-label text-md-end">Пароль</label>
                                 <div class="col-md-6">
                                     <input id="password" type="password" class="form-control" name="password" required>
                                 </div>

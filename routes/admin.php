@@ -23,4 +23,4 @@ Route::get('/', function () {
 
 
 Route::resource('user', UserController::class)->except(['show'])->names('users');
-Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
+Route::get('/profile', [ProfileController::class, 'profile'])->name('profile.settings');
